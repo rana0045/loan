@@ -12,9 +12,9 @@ let activeState = "improve";
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
-        <div className="flex flex-col justify-center w-[50%]">
-          {children}
-        </div>
+      <div className="flex flex-col justify-center w-[50%]">
+        {children}
+      </div>
 
     </>
 
